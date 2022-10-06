@@ -24,7 +24,7 @@ void setup() {
 
 void draw() {
   //画图的开始与结束条件，开始时间
-  if (x<width-width/8 && y<height-height/8 && frameCount>5000) {
+  if (x<width-width/8 && y<height-height/8 && frameCount>500) {
     lineX();
     lineY();
   }
